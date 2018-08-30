@@ -1,4 +1,4 @@
-package cc.shinichi.sherlockutillibrary.image;
+package cc.shinichi.sherlockutillibrary.utility.image;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

@@ -1,4 +1,4 @@
-package cc.shinichi.sherlockutillibrary.common;
+package cc.shinichi.sherlockutillibrary.utility.common;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

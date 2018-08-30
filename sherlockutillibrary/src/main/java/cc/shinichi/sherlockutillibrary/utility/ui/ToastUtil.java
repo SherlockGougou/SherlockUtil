@@ -1,4 +1,4 @@
-package cc.shinichi.sherlockutillibrary.ui;
+package cc.shinichi.sherlockutillibrary.utility.ui;
 
 import android.content.Context;
 import android.os.Handler;

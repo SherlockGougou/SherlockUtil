@@ -1,8 +1,11 @@
-package cc.shinichi.sherlockutillibrary.common;
+package cc.shinichi.sherlockutillibrary.utility.common;
 
 import android.text.TextUtils;
 import android.util.Log;
 
+/**
+ * @author SherlockHolmes
+ */
 public class Print {
 	public static void d(String TAG, String msg) {
 

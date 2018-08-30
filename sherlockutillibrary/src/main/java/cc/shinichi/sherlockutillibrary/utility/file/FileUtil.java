@@ -1,4 +1,4 @@
-package cc.shinichi.sherlockutillibrary.file;
+package cc.shinichi.sherlockutillibrary.utility.file;
 
 import android.content.Context;
 import android.content.Intent;

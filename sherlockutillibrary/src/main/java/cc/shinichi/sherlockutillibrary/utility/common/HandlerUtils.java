@@ -1,4 +1,4 @@
-package cc.shinichi.sherlockutillibrary.common;
+package cc.shinichi.sherlockutillibrary.utility.common;
 
 import android.os.Handler;
 import android.os.Message;

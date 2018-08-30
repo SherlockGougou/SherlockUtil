@@ -1,4 +1,4 @@
-package cc.shinichi.sherlockutillibrary.common;
+package cc.shinichi.sherlockutillibrary.utility.common;
 
 import android.content.ClipboardManager;
 import android.content.Context;
@@ -8,7 +8,7 @@ import java.net.URLDecoder;
 /**
  * @author 工藤
  * @email gougou@16fan.com
- * cc.shinichi.sherlockutillibrary.common
+ * cc.shinichi.sherlockutillibrary.utility.common
  * create at 2018/8/29  11:55
  * description:
  */
