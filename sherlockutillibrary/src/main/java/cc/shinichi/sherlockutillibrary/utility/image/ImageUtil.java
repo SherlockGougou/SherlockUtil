@@ -229,7 +229,16 @@ public class ImageUtil {
 
 	public static boolean isLongImage(String imagePath) {
 		int[] wh = getWidthHeight(imagePath);
-		return wh[0] > 0 && wh[1] > 0 && Math.max(wh[0], wh[1]) / Math.min(wh[0], wh[1]) >= LONG_IMAGE_RATIO;
+		int w = wh[0];
+		int h = wh[1];
+		return (w > 0 && h > 0) && (h > w) && (h / w >= LONG_IMAGE_RATIO);
+	}
+
+	public static boolean iWidthImage(String imagePath) {
+		int[] wh = getWidthHeight(imagePath);
+		int w = wh[0];
+		int h = wh[1];
+		return (w > 0 && h > 0) && (w > h) && (w / h >= LONG_IMAGE_RATIO);
 	}
 
 	public static Bitmap getImageBitmap(String srcPath, int degree) {
